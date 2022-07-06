@@ -1,0 +1,170 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.box{
+    background-color: #E6DCCA;
+}
+.boxul{
+    display: flex;
+    justify-content: center;
+}
+.boxli{
+    font-size: 14px;
+    height: 30px;
+    margin-left: 50px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+h1{
+    width: 124px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menuul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menuli{
+    font-size: 15px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.menuli + .menuli{
+    border-left: 1px solid #000;
+}
+.newtopicsbaner{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.newstopicsul{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.newstopicsli{
+    margin-right: 60px;
+}
+.newstopicsli img{
+    width: 300px;
+}
+.newstopicsli3{
+    margin-right: 0;
+}
+.newstopicsli3 img{
+    width: 300px;
+}
+.newtopics p{
+    font-size: 15px;
+}
+.date{
+    margin-top: 10px;
+}
+.news{
+    margin: 0;
+}
+.media{
+    background-color: #CEA557;
+    border-radius: 7px;
+    width: 70px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+.newsbaner{
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.history img{
+    width: 100%;
+    margin-top: 70px;
+}
+.lineupbaner{
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.line{
+    width: 280px;
+    transition-property: opacity;   
+    -webkit-transition-property: opacity;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+.line:hover {
+    opacity: .7;
+}
+.lineupul{
+    display: flex;
+    flex-wrap: wrap;
+    width: clamp(320px,100%,1160px);
+    margin: 0 auto;
+    gap:80px;
+    padding: 0 37px;
+    margin-top: 50px;
+}
+.lineupli{
+    width: calc((100% - 74px) / 4);
+    margin: 0 auto;
+}
+.lineupli p{
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+}
+.jelybaner{
+    border-bottom: 1px solid rgb(166, 166, 166);
+    padding-bottom: 90px;
+}
+.jellybanerimg{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.footerrogo{
+    width: 120px;
+}
+.footerul{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+span{
+    color: #C11E1E;
+}
+.footerli{
+    margin-left: 60px;
+}
+.footermenu{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+.footermenu li{
+    margin-left: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}

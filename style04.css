@@ -1,0 +1,144 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.box{
+    background-color: #E6DCCA;
+}
+.boxul{
+    display: flex;
+    justify-content: center;
+}
+.boxli{
+    font-size: 14px;
+    height: 30px;
+    margin-left: 50px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+h1{
+    width: 124px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menuul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menuli{
+    font-size: 15px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.menuli + .menuli{
+    border-left: 1px solid #000;
+}
+.meple{
+    width: 319px;
+    height: 286px;
+    margin-top: 50px;
+}
+  .menu{
+      display: flex;
+      justify-content: center;
+  }
+  h2{
+      font-size: 18px;
+      letter-spacing: 0.2rem;
+      font-weight: 700;
+  }
+  .price{
+      font-size: 18px;
+      margin-top: 20px;
+  }
+  .style{
+      margin-left: 30px;
+      margin-top: 60px;
+  }
+  .dotted{
+      margin-top: 40px;
+    border-bottom: 1.5px dotted black;
+    padding-bottom: 35px;
+  }
+  .about{
+      font-size: 14px;
+      margin-top: 30px;
+      line-height: 1.7;
+  }
+  .kazu{
+      display: flex;
+      margin-top: 30px;
+  }
+  .amount{
+      margin-right: 20px;
+  }
+  .btn {
+    background: #FF8B00;
+    color: #fff;
+    padding: 13px 178px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-property: opacity;   
+    -webkit-transition-property: opacity;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+.btn:hover {
+    opacity: .7;
+}
+  .osirase{
+      font-size: 14px;
+      margin-top: 35px;
+      line-height: 2;
+  }
+  .news{
+      color: #C11E1E;
+  }
+  .footerrogo{
+    width: 120px;
+}
+.footerul{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.tel{
+    color: #C11E1E;
+}
+.footerli{
+    margin-left: 60px;
+}
+.footermenu{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+.footermenu li{
+    margin-left: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.cart{
+    border-bottom: 1px solid rgb(166, 166, 166);
+    padding-bottom: 90px;
+}
